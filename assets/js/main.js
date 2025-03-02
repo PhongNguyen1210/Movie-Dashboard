@@ -22,7 +22,7 @@ if(navClose){
 let swiperMovie = new Swiper('.movie__swiper', {
     loop: true,
     grabCursor: true,
-    sliderPerView: 2,
+    slidesPerView: 2,
     spaceBetween: 24,
 
     breakpoints:{
@@ -39,7 +39,30 @@ let swiperMovie = new Swiper('.movie__swiper', {
 })
 
 /*=============== SWIPER NEW ===============*/
+let swiperNew = new Swiper('.new__swiper', {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 2,
+    centeredSlides: true,
 
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    
+    breakpoints:{
+        440:{
+            slidesPerView: 'auto',
+            
+        },
+        768:{
+            slidesPerView: 4,
+        },
+        1200:{
+            slidesPerView: 5,
+        }
+    }
+})
 
 /*=============== ADD BLUR HEADER ===============*/
 
