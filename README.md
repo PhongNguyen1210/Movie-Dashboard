@@ -1,5 +1,5 @@
 ### 🌟 Responsive Movie Admin Dashboard 🌟
- 🚀 Giới thiệu
+####🚀 Giới thiệu
 Responsive Movie Admin Dashboard là một ứng dụng quản lý phim hiện đại, được thiết kế bằng HTML, CSS và JavaScript. Ứng dụng mang đến sự linh hoạt và tiện lợi trong việc quản lý các bộ phim trên mọi thiết bị.
 
 ## ✨ Tính năng chính
